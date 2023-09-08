@@ -15,7 +15,7 @@ public class AppInitializer extends Application {
 
     @Override
     public void start(Stage primaryStage) throws IOException {
-        // Use the correct path to load the FXML file
+
         primaryStage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/view/Login.fxml"))));
         primaryStage.show();
         primaryStage.setResizable(false);
