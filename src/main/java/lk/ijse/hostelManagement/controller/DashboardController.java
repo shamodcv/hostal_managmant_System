@@ -8,7 +8,6 @@ import lk.ijse.hostelManagement.util.Routes;
 import java.io.IOException;
 
 public class DashboardController {
-
     public AnchorPane pane;
 
     public void btnBackOnAction(ActionEvent actionEvent) throws IOException {
@@ -28,6 +27,10 @@ public class DashboardController {
     }
 
     public void btnSettingsClickOnAction(ActionEvent actionEvent) throws IOException {
+        Navigation.navigate(Routes.CHANGE_PASSWORD,pane);
+    }
+
+    public void ChangePasswordOnAction(ActionEvent actionEvent) throws IOException {
         Navigation.navigate(Routes.CHANGE_PASSWORD,pane);
     }
 }

@@ -1,5 +1,6 @@
 package lk.ijse.hostelManagement.util;
 
+import animatefx.animation.FadeIn;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.control.Alert;
 import javafx.scene.layout.AnchorPane;
@@ -40,6 +41,10 @@ public class Navigation {
                 window.setTitle("24D Hostel Management System | Change Password");
                 initUI("ChangePassword.fxml");
                 break;
+            case CREATE_USER_ACC:
+                window.setTitle("24D Hostel Management System | Create User Account");
+                initUI("CreatePassword.fxml");
+                break;
             default:
                 new Alert(Alert.AlertType.ERROR, "UI Not Found!").show();
         }
@@ -47,6 +52,6 @@ public class Navigation {
     public static void initUI(String location) throws IOException {
         Navigation.pane.getChildren()
                 .add(FXMLLoader.load(Navigation.class.getResource("/resources/view/" + location)));
-       // new FadeIn(pane).setSpeed(3).play();
+        new FadeIn(pane).setSpeed(3).play();
     }
 }

@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class RoomDTO {
+public class RoomsDTO {
     private String room_type_id;
     private String type;
     private String key_money;

@@ -2,6 +2,7 @@
 
 <?import com.jfoenix.controls.JFXButton?>
 <?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.effect.DropShadow?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -10,12 +11,12 @@
 
 <AnchorPane fx:id="pane" prefHeight="710.0" prefWidth="1371.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.hostelManagement.controller.DashboardController">
    <children>
-      <ImageView fitHeight="779.0" fitWidth="1396.0" layoutX="-1.0" pickOnBounds="true">
+      <ImageView fitHeight="869.0" fitWidth="1469.0" pickOnBounds="true">
          <image>
-            <Image url="@../images/dashboard.jpg" />
+            <Image url="@../images/hostal.jpg" />
          </image>
       </ImageView>
-      <JFXButton buttonType="RAISED" layoutX="50.0" layoutY="50.0" onAction="#btnBackOnAction" prefHeight="25.0" prefWidth="25.0" ripplerFill="#0d009a" style="-fx-background-radius: 50;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+      <JFXButton buttonType="RAISED" layoutX="47.0" layoutY="58.0" onAction="#btnBackOnAction" prefHeight="25.0" prefWidth="25.0" ripplerFill="#0d009a" style="-fx-background-radius: 50;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
          <effect>
             <DropShadow color="#00000080" height="14.78" offsetX="8.0" offsetY="8.0" radius="12.525" width="37.32" />
          </effect>
@@ -26,21 +27,21 @@
             <Cursor fx:constant="HAND" />
          </cursor>
          <graphic>
-            <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="36.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../images/arrow.png" />
                </image>
             </ImageView>
          </graphic>
       </JFXButton>
-      <AnchorPane layoutX="339.0" layoutY="283.0" prefHeight="252.0" prefWidth="197.0" style="-fx-background-color: ffffff; -fx-background-radius: 20;">
+      <AnchorPane layoutX="283.0" layoutY="369.0" opacity="0.88" prefHeight="278.0" prefWidth="220.0" style="-fx-background-color: #AEEEEE; -fx-background-radius: 20;">
          <children>
-            <ImageView fitHeight="153.0" fitWidth="185.0" layoutX="18.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="153.0" fitWidth="185.0" layoutX="33.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../images/student.png" />
                </image>
             </ImageView>
-            <JFXButton buttonType="RAISED" layoutX="22.0" layoutY="168.0" onAction="#btnStudentClickOnAction" prefHeight="50.0" prefWidth="150.0" ripplerFill="#0d009a" style="-fx-background-color: #003E9E; -fx-background-radius: 15;" text="Student" textFill="WHITE">
+            <JFXButton buttonType="RAISED" layoutX="38.0" layoutY="191.0" onAction="#btnStudentClickOnAction" prefHeight="50.0" prefWidth="150.0" ripplerFill="#0d009a" style="-fx-background-color: #003E9E; -fx-background-radius: 15;" text="Student" textFill="WHITE">
                <font>
                   <Font name="Calibri Bold" size="18.0" />
                </font>
@@ -53,14 +54,14 @@
             <DropShadow color="#00000080" height="14.78" offsetX="8.0" offsetY="8.0" radius="12.525" width="37.32" />
          </effect>
       </AnchorPane>
-      <AnchorPane layoutX="592.0" layoutY="284.0" prefHeight="252.0" prefWidth="197.0" style="-fx-background-color: ffffff; -fx-background-radius: 20;">
+      <AnchorPane layoutX="623.0" layoutY="370.0" opacity="0.88" prefHeight="278.0" prefWidth="220.0" style="-fx-background-color: #AEEEEE; -fx-background-radius: 20;">
          <children>
-            <ImageView fitHeight="162.0" fitWidth="153.0" layoutX="23.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="162.0" fitWidth="153.0" layoutX="38.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../images/room.png" />
                </image>
             </ImageView>
-            <JFXButton buttonType="RAISED" layoutX="23.0" layoutY="170.0" onAction="#btnRoomsClickOnAction" prefHeight="50.0" prefWidth="150.0" ripplerFill="#0d009a" style="-fx-background-color: #003E9E; -fx-background-radius: 15;" text="Rooms" textFill="WHITE">
+            <JFXButton buttonType="RAISED" layoutX="40.0" layoutY="192.0" onAction="#btnRoomsClickOnAction" prefHeight="50.0" prefWidth="150.0" ripplerFill="#0d009a" style="-fx-background-color: #003E9E; -fx-background-radius: 15;" text="Rooms" textFill="#ffffff">
                <font>
                   <Font name="Calibri Bold" size="18.0" />
                </font>
@@ -73,14 +74,14 @@
             <DropShadow color="#00000080" height="14.78" offsetX="8.0" offsetY="8.0" radius="12.525" width="37.32" />
          </effect>
       </AnchorPane>
-      <AnchorPane layoutX="842.0" layoutY="286.0" prefHeight="252.0" prefWidth="197.0" style="-fx-background-color: ffffff; -fx-background-radius: 20;">
+      <AnchorPane focusTraversable="true" layoutX="956.0" layoutY="370.0" opacity="0.88" prefHeight="278.0" prefWidth="220.0" style="-fx-background-color: #AEEEEE; -fx-background-radius: 20;">
          <children>
-            <ImageView fitHeight="127.0" fitWidth="139.0" layoutX="29.0" layoutY="26.0" pickOnBounds="true">
+            <ImageView fitHeight="127.0" fitWidth="139.0" layoutX="43.0" layoutY="26.0" pickOnBounds="true">
                <image>
                   <Image url="@../images/resavation.png" />
                </image>
             </ImageView>
-            <JFXButton buttonType="RAISED" layoutX="22.0" layoutY="169.0" onAction="#btnReservationClickOnAction" prefHeight="50.0" prefWidth="150.0" ripplerFill="#0d009a" style="-fx-background-color: #003E9E; -fx-background-radius: 15;" text="Reservation" textFill="WHITE">
+            <JFXButton buttonType="RAISED" layoutX="39.0" layoutY="190.0" onAction="#btnReservationClickOnAction" prefHeight="50.0" prefWidth="150.0" ripplerFill="#0d009a" style="-fx-background-color: #003E9E; -fx-background-radius: 15;" text="Reservation" textFill="WHITE">
                <font>
                   <Font name="Calibri Bold" size="18.0" />
                </font>
@@ -93,7 +94,7 @@
             <DropShadow color="#00000080" height="14.78" offsetX="8.0" offsetY="8.0" radius="12.525" width="37.32" />
          </effect>
       </AnchorPane>
-      <JFXButton buttonType="RAISED" layoutX="1290.0" layoutY="50.0" onAction="#btnSettingsClickOnAction" prefHeight="25.0" prefWidth="25.0" ripplerFill="#0d009a" style="-fx-background-radius: 50;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+      <JFXButton buttonType="RAISED" layoutX="1379.0" layoutY="50.0" onAction="#btnSettingsClickOnAction" prefHeight="25.0" prefWidth="25.0" ripplerFill="#0d009a" style="-fx-background-radius: 50;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
          <effect>
             <DropShadow color="#00000080" height="14.78" offsetX="8.0" offsetY="8.0" radius="12.525" width="37.32" />
          </effect>
@@ -104,7 +105,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
          <graphic>
-            <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="35.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../images/settings.png" />
                </image>
@@ -116,5 +117,10 @@
             <Image url="@../images/hostal.jpeg" />
          </image>
       </ImageView>
+      <Label layoutX="331.0" layoutY="48.0" prefHeight="143.0" prefWidth="382.0" text="HOSTAL" textFill="WHITE">
+         <font>
+            <Font name="Yu Gothic UI Bold" size="96.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
