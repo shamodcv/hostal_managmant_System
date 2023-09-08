@@ -1,8 +1,3 @@
-/*
- * Kasun Miuranga
- * Copyright (c) 2023
- */
-
 package lk.ijse.hostelManagement.controller;
 
 import com.jfoenix.controls.JFXPasswordField;

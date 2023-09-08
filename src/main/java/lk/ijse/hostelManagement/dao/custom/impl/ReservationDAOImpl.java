@@ -1,4 +1,3 @@
-
 package lk.ijse.hostelManagement.dao.custom.impl;
 
 import lk.ijse.hostelManagement.dao.custom.ReservationDAO;

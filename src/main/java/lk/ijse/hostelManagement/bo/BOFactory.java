@@ -1,5 +1,3 @@
-
-
 package lk.ijse.hostelManagement.bo;
 
 import lk.ijse.hostelManagement.bo.custom.impl.ReservationBOImpl;

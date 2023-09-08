@@ -8,12 +8,15 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 public class AppInitializer extends Application {
+
     public static void main(String[] args) {
         launch(args);
     }
+
     @Override
     public void start(Stage primaryStage) throws IOException {
-        primaryStage.setScene(new Scene(FXMLLoader.load(getClass().getResource("../../../resources/view/Dashboard.fxml"))));
+        // Use the correct path to load the FXML file
+        primaryStage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/view/Login.fxml"))));
         primaryStage.show();
         primaryStage.setResizable(false);
         primaryStage.setY(0);

@@ -1,5 +1,3 @@
-
-
 package lk.ijse.hostelManagement.controller;
 
 import animatefx.animation.Shake;

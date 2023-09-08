@@ -1,5 +1,3 @@
-
-
 package lk.ijse.hostelManagement.dao.custom;
 
 import lk.ijse.hostelManagement.dao.CrudDAO;
